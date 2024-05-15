@@ -70,4 +70,10 @@
   <data name="CollectionDisplayName" xml:space="preserve">
     <value>Request</value>
   </data>
+  <data name="Property_Number" xml:space="preserve">
+    <value>Номер обращения</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
 </root>
