@@ -76,4 +76,10 @@
   <data name="Property_Description" xml:space="preserve">
     <value>Описание</value>
   </data>
+  <data name="Property_CreatedDate" xml:space="preserve">
+    <value>CreatedDate</value>
+  </data>
+  <data name="Property_Responsible" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
 </root>

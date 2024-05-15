@@ -70,4 +70,10 @@
   <data name="CollectionDisplayName" xml:space="preserve">
     <value>Обращение</value>
   </data>
+  <data name="Property_CreatedDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="Property_Responsible" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
 </root>

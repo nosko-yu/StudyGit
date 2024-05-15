@@ -27,18 +27,78 @@
         {
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
-          "Name": "ControlGroup"
+          "Name": "ControlGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ]
         },
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
           "NameGuid": "1bda65fd-83cb-4467-af3e-35a375e73b5a",
           "Name": "Control",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
           "PropertyGuid": "e28f0310-ec01-43aa-b817-a81aa6f713bf",
+          "RowNumber": 1,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "2663e64d-e00f-45f9-9850-6aa6f7ee4480",
+          "Name": "Number",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+          "ParentGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
+          "PropertyGuid": "43d91f46-eecb-4144-86c9-7e85fab07618",
           "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "15ce108c-782e-408b-98be-eba1bc70d57d",
+          "Name": "Description",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
+          "PropertyGuid": "ba920272-1a53-4fb3-a7bb-bbf1d3a4a238",
+          "RowNumber": 2,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "15a230a5-9d40-452b-8d6a-a90692519358",
+          "Name": "CreatedDate",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+          "ParentGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
+          "PropertyGuid": "39ee80ca-4aa2-44e5-a0d3-8c9d5b389aa4",
+          "RowNumber": 0,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "04802000-975b-4aa5-bab3-193d12720112",
+          "Name": "Responsible",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+          "ParentGuid": "9265c7dd-5b33-4fec-a647-fb9f6d584460",
+          "PropertyGuid": "75f88f43-4c31-467a-b0a0-387267bad852",
+          "RowNumber": 3,
           "RowSpan": 1,
           "Settings": []
         }
@@ -78,6 +138,25 @@
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "43d91f46-eecb-4144-86c9-7e85fab07618"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "39ee80ca-4aa2-44e5-a0d3-8c9d5b389aa4",
+      "Name": "CreatedDate",
+      "Code": "CreatedDate",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "ba920272-1a53-4fb3-a7bb-bbf1d3a4a238"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "75f88f43-4c31-467a-b0a0-387267bad852",
+      "Name": "Responsible",
+      "Code": "Responsible",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "39ee80ca-4aa2-44e5-a0d3-8c9d5b389aa4"
     }
   ],
   "PublicStructures": [],
